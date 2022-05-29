@@ -15,7 +15,7 @@ https://nodejs.org/en/
 BOOTSTRAP CSS & JS: https://getbootstrap.com/docs/5.2/getting-started/introduction/#cdn-links
 
 
-<h2> LARAVEL UI LOGIN COOMMANDS (als nodig)</h2>
+<h2> LARAVEL UI LOGIN COMMANDS (als nodig)</h2>
 
 composer require laravel/ui
 php artisan ui vue --auth
