@@ -1,7 +1,6 @@
 <h1> Pechhulp zuid nederland origineel </h1>
 
-<p>Maak laravel applicatie aan, door dit in cmd in te vullen en aan te passen met eigen projectnaam</p>
-<p>VERGEET NIET IN DE JUISTE MAP TE DOEN</p>
+<p>Maak laravel applicatie aan, door dit in cmd in te vullen. IN DE JUISTE MAP! En aan te passen met eigen projectnaam</p>
 <code> composer create-project laravel/laravel projectnaam </code>
 
 <h2> LARAVEL PACKAGES </h2>
