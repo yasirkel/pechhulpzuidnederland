@@ -1,6 +1,7 @@
 <h1> Pechhulp zuid nederland origineel </h1>
 
 <p>Maak laravel applicatie aan, door dit in cmd in te vullen en aan te passen met eigen projectnaam</p>
+<p>VERGEET NIET IN DE JUISTE MAP TE DOEN</p>
 <code> composer create-project laravel/laravel projectnaam </code>
 
 <h2> LARAVEL PACKAGES </h2>
@@ -27,4 +28,6 @@ BOOTSTRAP CSS & JS: https://getbootstrap.com/docs/5.2/getting-started/introducti
 - npm run dev
 
 VSCODE PLUGINS
- - laravel snippets
+- laravel snippets
+- emmet
+
