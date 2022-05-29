@@ -28,6 +28,7 @@ BOOTSTRAP CSS & JS: https://getbootstrap.com/docs/5.2/getting-started/introducti
 - npm run dev
 
 <h2> VSCODE PLUGINS </h2>
+
 - laravel snippets
 - emmet
 
