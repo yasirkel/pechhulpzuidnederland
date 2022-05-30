@@ -26,6 +26,34 @@ BOOTSTRAP CSS & JS: https://getbootstrap.com/docs/5.2/getting-started/introducti
 - npm install
 - npm run dev
 
+<h2> CODE SNIPPETS </h2>
+<code> 
+$wedstrijden = new Wedstrijd;
+
+        $wedstrijden->gewonnenTeam = $request->input('gewonnenTeam');
+
+        $wedstrijden->verlorenTeam = $request->input('verlorenTeam');
+
+        $wedstrijden->scoreGewonnenTeam = $request->input('scoreGewonnenTeam');
+
+        $wedstrijden->scoreVerlorenTeam = $request->input('scoreVerlorenTeam');
+
+        $wedstrijden->save();
+
+
+
+
+        $gewonnenTeam = $request->input('gewonnenTeam');
+
+        Team::where('id', $gewonnenTeam)->update(['ronde' => Team::raw('ronde + 1')]);
+
+
+
+        $verlorenTeam = $request->input('verlorenTeam');
+
+        Team::where('id', $verlorenTeam)->update(['ronde' => Team::raw('ronde = 0')]);
+</code>
+
 <h2> VSCODE PLUGINS </h2>
 
 - laravel snippets
