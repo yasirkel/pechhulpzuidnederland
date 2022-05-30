@@ -28,7 +28,8 @@ BOOTSTRAP CSS & JS: https://getbootstrap.com/docs/5.2/getting-started/introducti
 
 <h2> CODE SNIPPETS </h2>
 <code> 
-$wedstrijden = new Wedstrijd;
+
+        $wedstrijden = new Wedstrijd;
 
         $wedstrijden->gewonnenTeam = $request->input('gewonnenTeam');
 
@@ -52,6 +53,7 @@ $wedstrijden = new Wedstrijd;
         $verlorenTeam = $request->input('verlorenTeam');
 
         Team::where('id', $verlorenTeam)->update(['ronde' => Team::raw('ronde = 0')]);
+
 </code>
 
 <h2> VSCODE PLUGINS </h2>
